@@ -3,17 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projectile
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - "\u73A9\u5BB6"
   - Water
   - UI
-  - 
-  - 
-  - 
+  - "\u73A9\u5BB6\u5B50\u5F48"
+  - "\u6575\u6A5F"
+  - "\u6575\u6A5F\u5B50\u5F48"
   - 
   - 
   - 

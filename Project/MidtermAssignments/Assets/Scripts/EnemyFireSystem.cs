@@ -11,10 +11,7 @@ public class EnemyFireSystem : FireSystemBase
         private float interval = 1.5f;
         private void Awake()
         {
-            //呼叫自訂方法
-            //SpawnBullet();
 
-            //延遲重複呼叫方法(方法名稱 延遲時間 間隔)
             InvokeRepeating("SpawnBullet", 0, interval);
         }
 }

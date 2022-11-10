@@ -12,9 +12,7 @@ namespace TerraiJason
 
         private void Update()
         {
-            //transform 此物件的transform 元件
-            //translate(x,y,z) 位移
-            //Time.deltaTime 每幀數花費時間
+           
             transform.Translate(speed * Time.deltaTime, 0, 0);
         }
     }
